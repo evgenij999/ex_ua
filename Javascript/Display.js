@@ -65,7 +65,7 @@ Display.setTime = function(time) {
 					&& timeHour == totalTimeHour) {
 				Player.stopVideo();
 				timeHTML = "0:00:00 / 0:00:00";
-				setTimeout("Display.Timeout()", 3000);
+				setTimeout("Display.Timeout()", 3001);
 
 			}
 		}
